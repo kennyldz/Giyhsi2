@@ -16,7 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd03e3ba-6c49-4628-8331-983b60f5f5e5" name="Default Changelist" comment="">
+    <list default="true" id="bd03e3ba-6c49-4628-8331-983b60f5f5e5" name="Default Changelist" comment="ilk versiyon aktarıldı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -290,8 +290,23 @@
       <workItem from="1610026425875" duration="299000" />
       <workItem from="1610127164100" duration="290000" />
       <workItem from="1610127721865" duration="580000" />
-      <workItem from="1610128592565" duration="496000" />
+      <workItem from="1610128592565" duration="1874000" />
     </task>
+    <task id="LOCAL-00001" summary="ilk versiyon aktarıldı">
+      <created>1610129332812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610129332812</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ilk versiyon aktarıldı">
+      <created>1610129388154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610129388154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +347,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -372,69 +387,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="450" y="258" key="#Composer" timestamp="1605351763458">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="450" y="258" key="#Composer/0.0.1280.760@0.0.1280.760" timestamp="1605351763458" />
-    <state x="1866" y="217" key="#Inspections" timestamp="1609343679167">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1866" y="217" key="#Inspections/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609343679167" />
-    <state x="1832" y="197" width="816" height="733" key="#Intentions" timestamp="1608599006951">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1832" y="197" width="816" height="733" key="#Intentions/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1608599006951" />
-    <state x="1994" y="363" key="#Notifications" timestamp="1609021226463">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1994" y="363" key="#Notifications/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609021226463" />
-    <state x="1977" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609358825432">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1977" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609358825432" />
-    <state x="1970" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609722639876">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1970" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609722639876" />
-    <state x="1908" y="317" key="EditFileWatcherDialog" timestamp="1609422239913">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1908" y="317" key="EditFileWatcherDialog/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609422239913" />
-    <state x="1910" y="190" key="FileChooserDialogImpl" timestamp="1609948184131">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="420" y="134" key="FileChooserDialogImpl/0.0.1280.760/1280.0.1920.1080@0.0.1280.760" timestamp="1607864253880" />
-    <state x="1910" y="190" key="FileChooserDialogImpl/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609948184131" />
-    <state x="2118" y="436" key="Github.ShareDialog" timestamp="1609947495696">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2118" y="436" key="Github.ShareDialog/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609947495696" />
-    <state x="1983" y="244" key="Github.UntrackedFilesDialog" timestamp="1609947541159">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1983" y="244" key="Github.UntrackedFilesDialog/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609947541159" />
-    <state x="1820" y="282" key="IDE.errors.dialog" timestamp="1608583607423">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1820" y="282" key="IDE.errors.dialog/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1608583607423" />
-    <state x="1741" y="171" key="SettingsEditor" timestamp="1608288012373">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1741" y="171" key="SettingsEditor/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1608288012373" />
-    <state x="1832" y="272" key="Vcs.Push.Dialog.v2" timestamp="1609948210012">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1832" y="272" key="Vcs.Push.Dialog.v2/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609948210012" />
-    <state x="1724" y="234" key="run.anything.popup" timestamp="1609706380285">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="296" y="165" key="run.anything.popup/0.0.1280.760/1280.0.1920.1080@0.0.1280.760" timestamp="1605477844338" />
-    <state x="1724" y="234" key="run.anything.popup/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609706380285" />
-    <state x="1735" y="115" width="1008" height="964" key="search.everywhere.popup" timestamp="1609265955289">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760/1280.0.1920.1080@0.0.1280.760" timestamp="1605480445260" />
-    <state x="1735" y="115" width="1008" height="964" key="search.everywhere.popup/0.0.1280.760/1280.0.1920.1080@1280.0.1920.1080" timestamp="1609265955289" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ilk versiyon aktarıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="ilk versiyon aktarıldı" />
   </component>
 </project>
