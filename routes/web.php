@@ -41,7 +41,8 @@ Route::prefix('kullanici')->name('kullanici.')->middleware('isUser')->group(func
    Route::post('satinal','App\Http\Controllers\kullanici\SepetController@CreateOrder')->name('Create.Order');
    //Hediye lokum yükle
    Route::get('hediyelokum','App\Http\Controllers\kullanici\kullanici@CreateDelight')->name('Create.Delight');
-
+   //Adreslerim
+    Route::resource('hesabim/adreslerim','App\Http\Controllers\kullanici\AddressController');
 
 });
 

@@ -29,25 +29,25 @@
             <form method="POST" action="{{ route('register') }}">
                 @csrf
 
-                Adınız
+                *Adınız-Soyadınız
                 <div class="bo4 of-hidden size15 m-b-20">
                     <!--<x-jet-label for="name" value="{{ __('') }}" />-->
                     <x-jet-input id="name" class="sizefull mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
                 </div>
 
-                E-Mail Adresiniz
+                *E-Mail Adresiniz
                 <div class="bo4 of-hidden size15 m-b-20">
                    <!-- <x-jet-label for="email" value="{{ __('') }}" />-->
                     <x-jet-input id="email" class="sizefull mt-1 w-full" type="email" name="email" :value="old('email')" required />
                 </div>
 
-                Şifre
+                *Şifre
                 <div class="bo4 of-hidden size15 m-b-20">
                   <!--  <x-jet-label for="password" value="{{ __('') }}" /> -->
                     <x-jet-input id="password" class="sizefull mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
                 </div>
 
-                Şifreyi Onayla
+                *Şifreyi Onayla
                 <div class="bo4 of-hidden size15 m-b-20">
                    <!-- <x-jet-label for="password_confirmation" value="{{ __('') }}" />-->
                     <x-jet-input id="password_confirmation" class="sizefull mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\kullanici;
 use App\Http\Controllers\Controller;
+use App\Models\Addres;
 use App\Models\Category;
 use App\Models\Order;
 use App\Models\Product;
@@ -20,7 +21,7 @@ class SepetController extends Controller
 {
     public function __construct()
     {
-        view()->share('categories',Category::all());
+        view()->share('categories',Category::where('status','aktif')->get());
     }
 
     public function index($slug)
@@ -29,6 +30,10 @@ class SepetController extends Controller
         $data['ProductDetails']=Product::whereSlug($slug)->where('check','1')->first() ?? abort(403,'Ürün Bulunamadı!');
         //kullanıcının güncel lokum tutarını al
         $data['UserInfo']=Delight::where('userID',Auth::id())->orderBy('id','DESC')->first();
+       //Adreslerim
+        $data['Address']=Addres::where('user_id',Auth::id())->get();
+
+
         //Sepetteki ürün sayısı ve ürün listesi
         $Query=['Beklemede','Ürün Hazırlanıyor','Kargoda'];
         $data['WaitOrder'] = DB::table('products')
@@ -48,16 +53,30 @@ class SepetController extends Controller
         $DelightControl=Delight::where('userID',Auth::id())->orderBy('id','DESC')->first();
         //Ürün sahibinin mail adresini al
         $UserMail=User::where('id',$Product->userID)->first();
-
+        $UserAdress=Addres::find($request->MyAddress);
 
         //Sipariş için oluşturulmuştur
+
+
+
         $Order=new Order;
         $Order->productID=$request->ProductID;
-        $Order->province=$request->AdresIl;
-        $Order->district=$request->AdresIlce;
-        $Order->address=$request->Adres;
-        $Order->name=$request->AdresAdSoyad;
-        $Order->telephone=$request->AdresTelefon;
+        //Yeni Adres girilmiş mi kontrol et
+        if($request->New){
+            $Order->province=$request->AdresIl;
+            $Order->district=$request->AdresIlce;
+            $Order->address=$request->Adres;
+            $Order->name=$request->AdresAdSoyad;
+            $Order->telephone=$request->AdresTelefon;
+        }else{
+            $Order->province=$UserAdress->address_province;
+            $Order->district=$UserAdress->address_district;
+            $Order->address=$UserAdress->address;
+            $Order->name=$UserAdress->name;
+            $Order->telephone=$UserAdress->telephone;
+        }
+
+        //Sipariş için oluşturulmuştur
         $Order->cargoNumber="";
         $Order->senderUserID=$Product->userID;
         $Order->receiverUserID=Auth::id();

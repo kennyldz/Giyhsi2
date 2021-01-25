@@ -1,19 +1,11 @@
-<!-- Master sayfası ->header ve footer -->
 @extends('front.layouts.master')
-<!-- Sayfa başlığı ve footer altı için -->
 @section('title',Request::segment(2))
-
-<!-- Kategori içerik -->
 @section('content')
-
-    <!-- Kategori görsel - Reklam içinde kullanılabilir  bg-title-page-->
     <section class="p-t-10 p-b-10 flex-col-c-m " style="background-image: linear-gradient(68deg, #1e8eba, #ee9887 99%)">
         <h2 class="l-text2 t-center">
             {{Request::segment(2)}}
         </h2>
-
     </section>
-
     <!-- Content page -->
     <section class="bgwhite p-t-55 p-b-65">
         <div class="container">
@@ -24,9 +16,7 @@
                    <br><span style="color: #8f8f8f" class="text-uppercase s-text1">Ürün Bulundu</span>
                     </div>
                     <div class="leftbar p-r-20 p-r-0-sm mt-4 ">
-                        <!-- Reklam Alanı -->
 
-                        <!--  -->
                         <h4 class="s-text12 ">
                             Kategoriler
                         </h4>
@@ -41,8 +31,6 @@
                             @endforeach
 
                         </ul>
-
-                        <!-- Reklam alanı -->
 <hr>
                         <div class="">
                             @if(!empty($Hitproduct))
@@ -50,7 +38,7 @@
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb-3">
                                     <div class="card shadow1">
                                         <a href="{{route('UrunDetay',$Hitproduct->slug)}}" >
-                                            <img class="card-img" src="/{{$Hitproduct->image}}" alt="Vans" height="250">
+                                            <img class="card-img" src="/{{$Hitproduct->image}}" alt="{{$Hitproduct->slug}}" height="250">
                                         </a>
 
                                         <div class=" d-flex justify-content-end mt-2 ml-2 " style="position: absolute;">
@@ -98,7 +86,7 @@
                             <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-3">
                                 <div class="card shadow1">
                                     <a href="{{route('UrunDetay',$product->slug)}}" >
-                                        <img class="card-img" src="/{{$product->image}}" alt="Vans" height="250">
+                                        <img class="card-img" src="/{{$product->image}}" alt="{{$product->slug}}" height="250">
                                     </a>
 
                                     <div class=" d-flex justify-content-end mt-2 ml-2 " style="position: absolute;">
@@ -123,13 +111,7 @@
 
                             </div>
                         @endforeach
-
-
-
-
                     </div>
-
-                    <!--Eğer bu kategoriye ait ürün yoksa -->
                     @else
                         <div class="s-text8 p-t-5 p-b-5 text-center ">
                             <img src="{{asset('/front')}}/images/icons/urunyok.png">
@@ -146,14 +128,4 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
 @endsection

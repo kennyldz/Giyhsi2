@@ -37,7 +37,7 @@ class IndexController extends Controller
         //Gelen Mesajlar
         $Mail=Contact::count();
         //Kategori Sayısı
-        $Category=Category::where('status','aktif')->count();
+        $Category=Category::count();
         //Kategori ürün sayısı
         $CategoryProduct=DB::table('categories')
             ->select("name", DB::raw("COUNT(products.categoryID) as product_count"))

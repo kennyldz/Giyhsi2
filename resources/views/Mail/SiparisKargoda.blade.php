@@ -9,7 +9,7 @@ Merhaba <strong>{{$data['SiparisKargoda']->name}}</strong>,
 </tr>
 <tr>
  <tr>
- <td colspan="4"><img class="header-cart-item-img rounded"  height="250" src="http://localhost:8000/{{$data['SiparisKargoda']->image}}" >
+ <td colspan="4"><img class="header-cart-item-img rounded"  height="250" src="http://giyshi.com/{{$data['SiparisKargoda']->image}}" >
  </td>
 </tr>
 <tr>
@@ -33,7 +33,7 @@ Merhaba <strong>{{$data['SiparisKargoda']->name}}</strong>,
 
 Siparişinizi teslim aldıktan sonra <b>Siparişlerim</b> sayfasından "<strong>Ürünü Teslim Aldım</strong>" butonuna tıklayınız.!
 
-@component('mail::button', ['url' => 'localhost:8000/kullanici/hesabim/siparislerim'])
+@component('mail::button', ['url' => 'http://giyshi.com/kullanici/hesabim/siparislerim'])
 Siparişe Bak
 @endcomponent
 

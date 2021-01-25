@@ -28,7 +28,7 @@ class kullanici extends Controller
 {
     public function __construct(){
 
-        view()->share('categories',Category::all());
+        view()->share('categories',Category::where('status','aktif')->get());
 
     }
 
@@ -156,6 +156,8 @@ class kullanici extends Controller
         $Product->slug=str::slug($request->UrunAdi);
         $Product->info=$request->UrunEkBilgi;
         $Product->size=$request->UrunBeden;
+        $Product->gender=$request->UrunCinsiyet;
+        $Product->shoe_size=$request->UrunNumara;
         $Product->color=$request->UrunRenk;
         $Product->cargopayment=$request->KargoOdeme;
         $Product->cargo=$request->KargoNereden;

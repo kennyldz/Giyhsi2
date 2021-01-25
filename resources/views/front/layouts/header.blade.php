@@ -4,41 +4,47 @@
     <title>Giyshi @yield('title')</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Giyshi Parasız alışveriş Lokum ile alışveriş yap.">
+    <meta name="description" content="Parasız alveriş için hemen kullanmaya başla.Üye ol, ürün yükle , satış yap, lokum kazan ve alışveriş yapmaya başla.">
+    <meta name="keywords" content="parasız,lokum,ürün,kadın,çocuk,bebek,spor,erkek,giyim,giysi,ucuz">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <meta name="language" content="Turkish">
+    <meta name="revisit-after" content="1 days">
 
 
 
-    <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="{{asset('front/')}}/images/icons/favicon-96x96.png"/>
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/bootstrap/css/bootstrap.min.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/fonts/themify/themify-icons.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/fonts/elegant-font/html-css/style.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/animate/animate.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/css-hamburgers/hamburgers.min.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/animsition/css/animsition.min.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/select2/select2.min.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/daterangepicker/daterangepicker.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/slick/slick.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/vendor/lightbox2/css/lightbox.min.css">
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/css/util.css">
     <link rel="stylesheet" type="text/css" href="{{asset('front/')}}/css/main.css">
 
     <link href="{{asset('admin/')}}/src/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
-    <!--===============================================================================================-->
+
 
     <style >
         .nav-pills .nav-link.active {
@@ -58,14 +64,13 @@
         }
     </style>
 </head>
-<!-- "animsition" sayfa açılışında animasyon için kullanılacak class -> Body'de -->
-<body >
 
+<body >
 <!-- header fixed -->
 <div class="wrap_header fixed-header2 trans-0-4">
     <!-- Logo -->
     <a href="/" class="logo">
-        <img src="{{asset('front/')}}/images/icons/logo.png" alt="IMG-LOGO">
+        <img src="{{asset('front/')}}/images/icons/logo.png" alt="giyshi-logo">
     </a>
 
     <!-- Menu -->
@@ -100,7 +105,7 @@
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="{{asset('kullanici/hesabim')}}">Hesabım</a>
                 <a class="dropdown-item" href="#">
-                    <!-- Authentication -->
+
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
 
@@ -116,7 +121,7 @@
 
         @else
             <a href="{{asset('kullanici/giris')}}">
-                <img src="{{asset('front/')}}/images/icons/user.png" class="header-icon1" alt="ICON">
+                <img src="{{asset('front/')}}/images/icons/user.png" class="header-icon1" alt="giris">
                 Giriş Yap
             </a>
 
@@ -168,20 +173,6 @@
     </div>
 </div>
 
-<!-- top noti -->
-<!-- DUYURU için
-<div class="flex-c-m size22 bg0 s-text21 pos-relative">
-    20% off everything!
-    <a href="product.html" class="s-text22 hov6 p-l-5">
-        Shop Now
-    </a>
-
-    <button class="flex-c-m pos2 size23 colorwhite eff3 trans-0-4 btn-romove-top-noti">
-        <i class="fa fa-remove fs-13" aria-hidden="true"></i>
-    </button>
-</div>
-
--->
 
 <!-- Header -->
 <header class="header2">
@@ -198,7 +189,7 @@
 
             <!-- Logo2 -->
             <a href="/" class="logo2">
-                <img src="{{asset('front/')}}/images/icons/logo.png" alt="IMG-LOGO">
+                <img src="{{asset('front/')}}/images/icons/logo.png" alt="giyshi-logo">
             </a>
 
             <div class="topbar-child2" style="flex-wrap: nowrap">
@@ -236,7 +227,7 @@
 
                     @else
                         <a href="{{asset('kullanici/giris')}}">
-                            <img src="{{asset('front/')}}/images/icons/user.png" class="header-icon1" alt="ICON">
+                            <img src="{{asset('front/')}}/images/icons/user.png" class="header-icon1" alt="user">
                             Giriş Yap
                         </a>
 
@@ -247,7 +238,7 @@
 
                 <!-- Masaüstü versiyon -->
                 <div class="header-wrapicon2 m-r-13">
-                    <img src="{{asset('front/')}}/images/icons/sepet.png" class="header-icon1 js-show-header-dropdown " alt="ICON">
+                    <img src="{{asset('front/')}}/images/icons/sepet.png" class="header-icon1 js-show-header-dropdown " alt="sepet">
                     <span class="header-icons-noti ">{{count($WaitOrder)}}</span>
 
                     <!-- Header cart noti -->
@@ -268,7 +259,7 @@
                                @foreach($WaitOrder as $cart)
                                <li class="header-cart-item">
                                    <div class="header-cart-item-img">
-                                       <img src="/{{$cart->image}}" alt="IMG">
+                                       <img src="/{{$cart->image}}" alt="sepet">
                                    </div>
                                    <div class="header-cart-item-txt">
                                        <a href="#" class="header-cart-item-name">
@@ -324,7 +315,7 @@
     <div class="wrap_header_mobile">
         <!-- Logo moblie -->
         <a href="/" class="logo-mobile">
-            <img src="{{asset('front/')}}/images/icons/logo.png" alt="IMG-LOGO" width="90">
+            <img src="{{asset('front/')}}/images/icons/logo.png" alt="giyshi-logo" width="90">
         </a>
 
         <!-- Button show menu -->
@@ -422,13 +413,6 @@
     <div class="wrap-side-menu" >
         <nav class="side-menu">
             <ul class="main-menu">
-                <!-- DUYURU MOBİL
-                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-						<span class="topbar-child1">
-							Free shipping for standard order over $100
-						</span>
-                </li>
-                -->
 
                 <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
                     <div class="topbar-child2-mobile">
@@ -452,8 +436,6 @@
 
                 <li class="item-menu-mobile">
                     <a href="/">Ana Sayfa</a>
-
-                <!--    <i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i> -->
                 </li>
 
 
@@ -469,49 +451,3 @@
 </header>
 
 
-
-<!--
-<html lang="tr">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-
-
-    <link href="{{asset('front/')}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <link href="{{asset('front/')}}/css/shop-homepage.css" rel="stylesheet">
-
-</head>
-
-<body>
-Navigation
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="container">
-
-    <div class="row">
--->

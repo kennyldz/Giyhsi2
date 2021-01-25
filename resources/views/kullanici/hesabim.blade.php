@@ -34,12 +34,11 @@
         <div class="container">
             <div class="row ">
                 <!--Kullanıcı Menu -->
-                <div class="col-sm-3 col-md-4 col-lg-3 p-2 mt-2 mb-2  bg-white shadow1 rounded" style="height: 250px">
+                <div class="col-sm-3 col-md-4 col-lg-3 p-2 mt-2 mb-2  bg-white shadow1 rounded" style="height: 150px">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Hesabım</a>
                         <a class="nav-link" id="v-pills-profile-tab"  href="{{route('kullanici.Orders')}}"  aria-selected="false">Siparişlerim</a>
                         <a class="nav-link"  href="{{route('kullanici.ProductAdd')}}"  aria-selected="false">Ürün Yükle</a>
-                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Lokum Al</a>
                     </div>
                 </div>
 
@@ -169,19 +168,28 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--Oturum bilgileri -->
-                                <div class="col-lg-6">
+                                <!--Adreslerim-->
+                                <div class="col-lg-3">
+                                    <div class="card mb-5 mb-lg-0 bg-white" style="border-top-color: #87c890;border-top-width: 5px">
+                                        <div class="card-body text-center">
+                                            <h6 class="card-title text-muted text-uppercase text-center">Adreslerim</h6>
+                                            <img src="{{asset('/front')}}/images/icons/adreslerim.png" style="position:relative;" >
+                                            <span class="badge badge-danger" style="position: absolute"></span>
+                                            <p class="card-price text-center"><span class="period">Teslim Adreslerim</span></p>
+                                            <hr>
+                                            <a href="{{route('kullanici.adreslerim.index')}}" class="text-center "> Tümünü Gör</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
                                     <div class="card mb-5 mb-lg-0">
                                         <div class="card-body bg-white rounded shadow1 text-center">
-                                  <span style="font-size:9.1rem;font-weight: 200;line-height:10.1rem;color: #8c8c8c" class="pt-2 ">{{$RequestProductCount}}</span>
-                                  <br><span style="color: #8f8f8f" class="text-uppercase s-text1">Ürününe gelen istek var</span>
+                                  <h1 style="color: #8c8c8c;font-size:5rem" class="pt-2 m-text5 pb-2">{{$RequestProductCount}}</h1>
+                                  <hr><p style="color: #8f8f8f" class="text-uppercase s-text3">Ürününe gelen istek var</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-
-
 
                         </div>
 

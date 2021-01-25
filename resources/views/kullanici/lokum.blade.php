@@ -34,13 +34,12 @@
         <div class="container">
             <div class="row">
                 <!--Kullanıcı Menu -->
-                <div class="col-sm-3 col-md-4 col-lg-3 p-2 mt-2 mb-2  bg-white shadow1 rounded" style="height: 250px">
+                <div class="col-sm-3 col-md-4 col-lg-3 p-2 mt-2 mb-2  bg-white shadow1 rounded" style="height: 150px">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="v-pills-tab"  href="{{route('kullanici.account')}}" aria-selected="true">Hesabım</a>
                         <a class="nav-link" id="v-pills-profile-tab"  href="{{route('kullanici.Orders')}}"  aria-selected="false">Siparişlerim</a>
                         <a class="nav-link"  href="{{route('kullanici.ProductAdd')}}"  aria-selected="false">Ürün Yükle</a>
-                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Lokum Al</a>
-                    </div>
+             </div>
                 </div>
 
                 <!-- Kullanıcı Ana Sayfa-->

@@ -164,7 +164,7 @@ return [
         'phone'=>'Telefon numaranız',
         'message'=>'Mesajınız',
         'email'=>'E-Mail adresiniz',
-        'password'=>'şifre',
+        'password'=>'şifre'
     ],
 
 ];

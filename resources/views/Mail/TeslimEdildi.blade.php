@@ -4,7 +4,7 @@
 Merhaba <strong>{{$data['Username']}}</strong>
 
 <div class="row ">
-<div class="col-lg-12 text-center"><img src="{{asset('/front')}}/images/icons/lokum.png"></div>
+<div class="col-lg-12 text-center"><img src="http://giyshi.com/{{asset('/front')}}/images/icons/lokum.png"></div>
 <div class="col-lg-12 text-center "><strong>#1{{$data['OrderID']}}</strong> numaralı siparişi alıcınız teslim aldığını onaylamıştır.</div>
 </div>
 <hr>

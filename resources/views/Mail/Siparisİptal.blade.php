@@ -9,7 +9,7 @@ Merhaba <strong>{{$data['Siparisiptal']->name}}</strong>
 </div>
 <div class="row">
    <div class="col-sm-8">
-       <img class="header-cart-item-img rounded"  height="100" width="100" src="http://localhost:8000/{{$data['Siparisiptal']->image}}" >
+       <img class="header-cart-item-img rounded"  height="100" width="100" src="http://giyshi.com/{{$data['Siparisiptal']->image}}" >
        <table class="table">
            <tr><td>Ürün Adı</td></tr>
            <tr><td>{{$data['Siparisiptal']->title}}</td></tr>

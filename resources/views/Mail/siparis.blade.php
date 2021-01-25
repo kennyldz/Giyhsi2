@@ -6,7 +6,7 @@ Merhaba {{$data['UserName']}};
     <div class="col-sm-5">
         <div class="d-flex">
             <div style="font-size:.70rem!important;" >
-                <img class="header-cart-item-img rounded" src="http://localhost:8000/{{$data['ProductImage']}}" >
+                <img class="header-cart-item-img rounded" src="http://giyshi.com/{{$data['ProductImage']}}" >
             </div>
             <div >
                 <strong >{{$data['ProductName']}}</strong>
@@ -16,7 +16,7 @@ Merhaba {{$data['UserName']}};
 </div>
   isimli ürününüz askıdan alınmıştır.Lütfen sisteme giriş yapıp siparişi hazırlayınız.
 
-@component('mail::button', ['url' => 'http://localhost:8000/kullanici/hesabim/istekler'])
+@component('mail::button', ['url' => 'http://giyshi.com/kullanici/hesabim/istekler'])
 Gelen İstekler
 @endcomponent
 

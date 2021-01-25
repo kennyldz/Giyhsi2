@@ -33,12 +33,11 @@
         <div class="container">
             <div class="row">
                 <!--Kullanıcı Menu -->
-                <div class="col-sm-3 col-md-4 p-2 col-lg-3 p-b-50 rounded shadow1 bg-white " style="height: 250px">
+                <div class="col-sm-3 col-md-4 p-2 col-lg-3 p-b-50 rounded shadow1 bg-white " style="height: 150px">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active " id="v-pills-home-tab"  href="{{route('kullanici.account')}}"  aria-selected="false">Hesabım</a>
-                        <a class="nav-link "  href="{{route('kullanici.Orders')}}" aria-selected="true">Siparişler</a>
+                        <a class="nav-link "  href="{{route('kullanici.Orders')}}" aria-selected="true">Siparişlerim</a>
                         <a class="nav-link"   href="{{route('kullanici.ProductAdd')}}"  aria-selected="false">Ürün Yükle</a>
-                        <a class="nav-link"  data-toggle="pill" href="#"  aria-selected="false">Lokum Al</a>
                     </div>
                 </div>
 
@@ -155,7 +154,7 @@
                                 <!-- Pagination -->
                                     <!-- Pagination -->
 
-                                        <div class="card p-3 text-center border-0">
+                                        <div class="card p-3 text-center border-0 bg-light">
                                     <div class="pagination">
                                         {{$RequestProduct->links("pagination::bootstrap-4")}}
                                     </div>

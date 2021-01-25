@@ -28,25 +28,10 @@
                 <div class="slick3">
                     <div class="item-slick3" data-thumb="/{{$productsdetail->image}}">
                         <div class="wrap-pic-w">
-                            <img src="/{{$productsdetail->image}}" >
+                            <img src="/{{$productsdetail->image}}" alt="{{$productsdetail->title}}" >
                         </div>
                     </div>
 
-
-                    <!-- Ürün Galerisi
-                    <div class="item-slick3" data-thumb="images/thumb-item-02.jpg">
-                        <div class="wrap-pic-w">
-                            <img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
-                        </div>
-                    </div>
-
-                    <div class="item-slick3" data-thumb="images/thumb-item-03.jpg">
-                        <div class="wrap-pic-w">
-                            <img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
-                        </div>
-                    </div>
-
-                    -->
 
                 </div>
 
@@ -65,6 +50,8 @@
                         <table class="table table-sm small">
                             <tr><td>Beden</td><td>{{$productsdetail->size}}</td></tr>
                             <tr><td>Renk</td><td>{{$productsdetail->color}}</td></tr>
+                            <tr><td>Numara</td><td>{{$productsdetail->shoe_size}}</td></tr>
+                            <tr><td>Cinsiyet</td><td>{{$productsdetail->gender}}</td></tr>
                             <tr><td>Kargo</td><td>{{$productsdetail->cargopayment}} Öder</td></tr>
                             <tr><td>Nereden</td><td>{{$productsdetail->cargo}}  Kargolanacak</td></tr>
                             <tr><td>Nereye</td><td>{{$productsdetail->sendarea}}  Kargolanır</td></tr>
@@ -106,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
+            <div class="wrap-dropdown-content active-dropdown-content bo7 p-t-15 p-b-14">
                 <h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
                     Ek Bilgi
                     <i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
@@ -119,21 +106,7 @@
                     </p>
                 </div>
             </div>
-<!--
-            <div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
-                <h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
-                    Yorumlar (0)
-                    <i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
-                    <i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
-                </h5>
 
-                <div class="dropdown-content dis-none p-t-15 p-b-23">
-                    <p class="s-text8">
-
-                    </p>
-                </div>
-            </div>
-            -->
 
         </div>
     </div>
@@ -157,14 +130,10 @@
                             <!-- Block2 -->
                             <div class="block2">
                                 <div class="block2-img wrap-pic-w of-hidden pos-relative ">
-                                    <img src="/{{$related->image}}" style="height:220px">
+                                    <img src="/{{$related->image}}" style="height:220px" alt="{{$related->slug}}">
 
                                     <div class="block2-overlay trans-0-4">
-<!-- Favorilere ekle                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-                                        </a>
--->
+
                                         <div class="block2-btn-addcart w-size1 trans-0-4">
                                             <!-- Button -->
                                             <a href="{{route('kullanici.satin.al',$related->slug)}}" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" id="block2-btn-addcart"  >

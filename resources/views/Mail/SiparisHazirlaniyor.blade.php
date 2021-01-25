@@ -11,7 +11,7 @@ Merhaba <strong>{{$data['SiparisHazirlaniyor']->name}}</strong>,
 </td>
 </tr>
 <tr>
-<td ><img class="header-cart-item-img rounded" width="100" height="100" src="http://localhost:8000/{{$data['SiparisHazirlaniyor']->image}}" ></td>
+<td ><img class="header-cart-item-img rounded" width="100" height="100" src="http://giyshi.com/{{$data['SiparisHazirlaniyor']->image}}" ></td>
 <td>
  <table>
 <tr>

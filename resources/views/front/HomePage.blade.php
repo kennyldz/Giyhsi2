@@ -1,7 +1,5 @@
 @extends('front.layouts.master')
-<!-- Page Title and Footer Title -->
 @section('title','Parasız Alışveriş')
-<!-- Page Content -->
 @section('content')
 
             <!-- Slide1 -->
@@ -117,7 +115,7 @@
 
                                 <div class="card ">
                                     <a href="{{route('UrunDetay',$product->slug)}}" >
-                                    <img class="card-img" src="{{$product->image}}" alt="Vans" height="250">
+                                    <img class="card-img" src="{{$product->image}}" alt="{{$product->slug}}" height="250">
                                     </a>
 
                                     <div class=" d-flex justify-content-end mt-2 ml-2 " style="position: absolute;">
@@ -153,7 +151,7 @@
 
                                         <div class="card ">
                                             <a href="{{route('UrunDetay',$product->slug)}}" >
-                                                <img class="card-img" src="{{$product->image}}" alt="Vans" height="250">
+                                                <img class="card-img" src="{{$product->image}}" alt="{{$product->slug}}" height="250">
                                             </a>
                                             <div class=" d-flex justify-content-end mt-2 ml-2 " style="position: absolute;">
                                                 <a href="#" class="card-link text-white rounded bg-warning text-center shadow1" style="height: 25px;width:90px;">
@@ -273,14 +271,10 @@
                                             </div>
                                             <div class="block2-img wrap-pic-w of-hidden pos-relative ">
 
-                                                <img src="/{{$related->image}}" style="height:220px">
+                                                <img src="/{{$related->image}}" style="height:220px" alt="{{$related->slug}}" >
 
                                                 <div class="block2-overlay trans-0-4">
-                                                    <!-- Favorilere ekle                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-                                                                                                <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-                                                                                                <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-                                                                                            </a>
-                                                    -->
+
 
                                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                                         <!-- Button -->

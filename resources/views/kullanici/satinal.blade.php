@@ -1,5 +1,5 @@
 @extends('front.layouts.master')
-@section('title','Takas Sitesi Satın Al')
+@section('title',' Satın Al')
 @section('content')
 
     <!-- Title Page -->
@@ -61,32 +61,53 @@
                         <p class="s-text8 p-b-23">
                             Kargonuzun teslimatı için adres bilgilerinizi giriniz.
                         </p>
-
                         <span class="s-text19">
+							Adreslerimden Seç
+						</span>
+                        <div class="size13  m-b-12">
+                            <select name="MyAddress" id="MyAddress" class="form-control form-control-sm" onclick="Hide()" >
+
+                               @foreach($Address as $adres)
+                                   <option value="{{$adres->id}}">{{$adres->address_name}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+
+                        <div class="size13  m-b-12">
+                            <label class="s-text19"><input type="checkbox" onclick="Add()" name="New"  id="New"> Yeni Adres Gir</label>
+                           
+                        </div>
+
+                        <div id="NewAddress" style="display: none" >
+
+                            <span class="s-text19">
 							Adres
 						</span>
-
                         <div class="size13 bo4 m-b-12">
-                          <input type="text" name="AdresIl" class="sizefull s-text7 p-l-15 p-r-15" placeholder="İl" required>
+                          <input type="text" id="AdresIl" name="AdresIl" class="sizefull s-text7 p-l-15 p-r-15" placeholder="İl" >
                         </div>
 
                         <div class="size13 bo4 m-b-12">
-                            <input class="sizefull s-text7 p-l-15 p-r-15" type="text" name="AdresIlce" placeholder="İlçe" required>
+                            <input class="sizefull s-text7 p-l-15 p-r-15" type="text" id="AdresIlce" name="AdresIlce" placeholder="İlçe" >
                         </div>
 
                         <div class="size13 bo4 m-b-22">
-                            <input class="sizefull s-text7 p-l-15 p-r-15" type="text" name="Adres" placeholder="Adres / Mahalle-Sokak-Apt-Daire No" required>
+                            <input class="sizefull s-text7 p-l-15 p-r-15" type="text" id="Adres" name="Adres" placeholder="Adres " >
                         </div>
 
                         <span class="s-text19">
 							İletişim
 						</span>
                         <div class="size13 bo4 m-b-12">
-                            <input type="text" name="AdresAdSoyad" class="sizefull s-text7 p-l-15 p-r-15" placeholder="Ad / Soyad" required>
+                            <input type="text" id="AdresAdSoyad" name="AdresAdSoyad" class="sizefull s-text7 p-l-15 p-r-15" placeholder="Ad / Soyad" >
                         </div>
                         <div class="size13 bo4 m-b-12">
-                            <input type="tel" name="AdresTelefon"  class="sizefull s-text7 p-l-15 p-r-15"  placeholder="5xx-xxx-xxxx" pattern="[1-9]{3}[0-9]{3}[0-9]{4}" maxlength="10" required>
+                            <input type="tel" name="AdresTelefon"  class="sizefull s-text7 p-l-15 p-r-15"  placeholder="5xx-xxx-xxxx" pattern="[1-9]{3}[0-9]{3}[0-9]{4}" maxlength="10" >
                         </div>
+
+                        </div>
+
+
 
                     </div>
                 </div>
@@ -123,3 +144,33 @@
 
 @endsection
 
+<script type="text/javascript">
+
+    function Add() {
+
+        var Show=document.getElementById("NewAddress").style.display="block";
+
+        var AdresIl =document.getElementById("AdresIl").required=true;
+        var AdresIlce =document.getElementById("AdresIlce").required=true;
+        var Adres =document.getElementById("Adres").required=true;
+        var AdresAdSoyad =document.getElementById("AdresAdSoyad").required=true;
+        var AdresTelefon =document.getElementById("AdresTelefon").required=true;
+       var MyAddress =document.getElementById("MyAddress").required=false;
+
+
+
+    }
+
+    function Hide(){
+        var Hide=document.getElementById("NewAddress").style.display="none";
+        var Select=document.getElementById("New").checked=false;
+        var AdresIl =document.getElementById("AdresIl").required=false;
+        var AdresIlce =document.getElementById("AdresIlce").required=false;
+        var Adres =document.getElementById("Adres").required=false;
+        var AdresAdSoyad =document.getElementById("AdresAdSoyad").required=false;
+        var AdresTelefon =document.getElementById("AdresTelefon").required=false;
+        //var Value=document.getElementById('New').value="0";
+
+    }
+
+</script>

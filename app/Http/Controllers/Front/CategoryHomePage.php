@@ -16,7 +16,7 @@ class CategoryHomePage extends Controller
     public function index($slug){
 
         //Kategorileri al
-        $data['categories']=Category::all();
+        $data['categories']=Category::where('status','aktif')->get();
 
         //Slugdan gelen kategorinin ID'sini al
         $CategoryID=Category::whereSlug($slug)->first();

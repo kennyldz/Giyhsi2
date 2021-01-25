@@ -125,6 +125,8 @@
                                     <tr><td>Ek Bilgi</td><td style="word-break: break-word">{{$Product->info}}</td></tr>
                                     <tr><td>Beden</td><td>{{$Product->size}}</td></tr>
                                     <tr><td>Renk</td><td>{{$Product->color}}</td></tr>
+                                        <tr><td>Numara</td><td>{{$Product->shoe_size}}</td></tr>
+                                        <tr><td>Cinsiyet</td><td>{{$Product->gender}}</td></tr>
                                     <tr><td>Kar. Ödeme</td><td>{{$Product->cargopayment}}</td></tr>
                                     <tr><td>Kar. Nereden</td><td>{{$Product->cargo}}</td></tr>
                                     <tr><td>Kar. Nereye</td><td>{{$Product->sendarea}}</td></tr>

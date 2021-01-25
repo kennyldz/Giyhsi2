@@ -26,7 +26,7 @@ class HomePage extends Controller
 
     public function __construct(){
 
-        view()->share('categories',Category::all());
+        view()->share('categories',Category::where('status','aktif')->get());
         view()->share('mesajlar',ContactReply::where('status','cevaplanmadı')->count());
         view()->share('onay',Product::where('check',0)->count());
 
