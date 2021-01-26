@@ -53,13 +53,13 @@
                     </a>
                 </li>
                 <li class="p-b-9">
-                    <a href="#" class="s-text7">
+                    <a href="{{route('sss')}}" class="s-text7">
                         Nasıl Alışveriş Yapabilirim ?
                     </a>
                 </li>
 
                 <li class="p-b-9">
-                    <a href="#" class="s-text7">
+                    <a href="{{route('sss')}}" class="s-text7">
                         Sık Sorulan Sorular
                     </a>
                 </li>
@@ -101,7 +101,7 @@
         <img src="{{asset('front/')}}/images/icons/logo.png" alt="IMG-LOGO" width="90">
 
         <div class="t-center s-text8 p-t-20">
-            2021 Copyright © | Tüm Hakları Saklıdır -  All rights reserved. | {{config('app.name')}} - {{date('Y')}}
+            2021 © | Tüm Hakları Saklıdır -  All rights reserved. | {{config('app.name')}} - {{date('Y')}}
         </div>
     </div>
 </footer>

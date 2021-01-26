@@ -3,6 +3,10 @@
 
 Merhaba <strong>{{$data['SiparisHazirlaniyor']->name}}</strong>,
 
+<strong>Önemli Bilgilendirme</strong><br>
+<p>Satıcının ürünü kargo şirketine evinden kurye ile teslim etmesi durumunda kargo bedeline ek bir fiyat farkı çıkmaktadır.</p>
+<p><strong>Tüm bu süreçlerden ve ortaya çıkacak olan kargo bedelinden giyshi.com sorumlu değildir.</strong></p>
+
 @component('mail::table')
 <table>
 <tr>
@@ -11,7 +15,7 @@ Merhaba <strong>{{$data['SiparisHazirlaniyor']->name}}</strong>,
 </td>
 </tr>
 <tr>
-<td ><img class="header-cart-item-img rounded" width="100" height="100" src="http://giyshi.com/{{$data['SiparisHazirlaniyor']->image}}" ></td>
+<td ><img alt="siparis" class="header-cart-item-img rounded" width="100" height="100" src="http://giyshi.com/{{$data['SiparisHazirlaniyor']->image}}" ></td>
 <td>
  <table>
 <tr>
@@ -29,4 +33,5 @@ Merhaba <strong>{{$data['SiparisHazirlaniyor']->name}}</strong>,
 @endcomponent
 <p>Siparişiniz kargoya verildikten sonra tarafınıza bilgilendirme yapılacaktır.
 İyi günler dileriz.</p>
+{{ config('app.name') }}
 @endcomponent

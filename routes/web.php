@@ -81,5 +81,7 @@ Route::get('/Kategori/{slug}','App\Http\Controllers\Front\CategoryHomePage@index
 Route::get('/iletisim','App\Http\Controllers\Front\HomePage@contact')->name('contact');
 //İletişim Sayfası contact gönder
 Route::post('/iletisim','App\Http\Controllers\Front\HomePage@contactpost')->name('contact.post');
-
+//Kullanıcı Bildirim
 Route::get('/bildirim','App\Http\Controllers\kullanici\kullanici@bildirim')->name('bildirim');
+//Sık Sorulan Sorular
+Route::get('/sss','App\Http\Controllers\Front\HomePage@sss')->name('sss');

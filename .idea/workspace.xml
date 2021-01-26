@@ -16,174 +16,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd03e3ba-6c49-4628-8331-983b60f5f5e5" name="Default Changelist" comment="güncelleme">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/kullanici/AddressController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Addres.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/front/images/icons/adreslerim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/kullanici/adreslerim.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="bd03e3ba-6c49-4628-8331-983b60f5f5e5" name="Default Changelist" comment="Feedback Güncelleme Yapıldı.">
+      <change afterPath="$PROJECT_DIR$/resources/views/front/sss.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/CategoryHomePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/CategoryHomePage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/HomePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/HomePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/kullanici/SepetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/kullanici/SepetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/kullanici/kullanici.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/kullanici/kullanici.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/blog-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/home-03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/home-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/Untitled-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/banner-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/bg-banner-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/bg-banner-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/bg-video-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/blog-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/contact.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/gallery-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/heading-pages-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/heading-pages-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/heading-pages-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/heading-pages-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/heading-pages-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/heading-pages-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/cxampptmpphp5e4tmp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/cxampptmpphp6cf8tmp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/discover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/icon-position-map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/video-16-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/icons/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-cart-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-cart-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-cart-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-cart-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-cart-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/item-cart-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/master-slide-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/product-detail-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/product-detail-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/product-detail-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/shop-item-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/thumb-item-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/thumb-item-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/images/thumb-item-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/product-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/cxampptmpphp1d0tmp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/tr/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tr/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Mail/SiparisHazirlaniyor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/SiparisHazirlaniyor.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Mail/SiparisKargoda.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/SiparisKargoda.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Mail/Siparisİptal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/Siparisİptal.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Mail/TeslimEdildi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/TeslimEdildi.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Mail/siparis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/siparis.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/urunduzenle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/urunduzenle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/api/api-token-manager.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/api/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/reset-password.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify-email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/HomePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/HomePage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/Kategori.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/Kategori.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/UrunDetay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/UrunDetay.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/iletisim.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/iletisim.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/hesabim.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/hesabim.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/istekler.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/istekler.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/lokum.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/lokum.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/profilim.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/profilim.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/satinal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/satinal.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/siparislerim.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/siparislerim.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/urunlerim.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/urunlerim.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/urunyukle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/urunyukle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kullanici/uyeol.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kullanici/uyeol.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/delete-user-form.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/logout-other-browser-sessions-form.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/two-factor-authentication-form.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/update-password-form.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -499,7 +339,9 @@
       <workItem from="1611361825788" duration="290000" />
       <workItem from="1611362427939" duration="683000" />
       <workItem from="1611401671114" duration="7176000" />
-      <workItem from="1611603661669" duration="9430000" />
+      <workItem from="1611603661669" duration="10151000" />
+      <workItem from="1611669320934" duration="2032000" />
+      <workItem from="1611675215998" duration="7167000" />
     </task>
     <task id="LOCAL-00001" summary="ilk versiyon aktarıldı">
       <created>1610129332812</created>
@@ -522,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610130720079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feedback Güncelleme Yapıldı.">
+      <created>1611617545937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611617545937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,6 +456,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ilk versiyon aktarıldı" />
     <MESSAGE value="güncelleme" />
-    <option name="LAST_COMMIT_MESSAGE" value="güncelleme" />
+    <MESSAGE value="Feedback Güncelleme Yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feedback Güncelleme Yapıldı." />
   </component>
 </project>

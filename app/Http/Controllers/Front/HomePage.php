@@ -129,4 +129,19 @@ public function contactpost(Request $request){
 
 }
 
+public function sss(){
+
+    //Sepetteki ürün sayısı ve ürün listesi
+    $Query=['Beklemede','Ürün Hazırlanıyor','Kargoda'];
+    $data['WaitOrder'] = DB::table('products')
+        ->select('products.title','products.image','orders.status')
+        ->join('orders', 'products.id','=','orders.productID')
+        ->where('orders.receiverUserID', Auth::id())
+        ->whereIn('orders.status',$Query)
+        ->get();
+
+        return view('front/sss',$data);
+}
+
+
 }
