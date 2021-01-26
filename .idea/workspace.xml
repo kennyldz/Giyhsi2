@@ -16,16 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd03e3ba-6c49-4628-8331-983b60f5f5e5" name="Default Changelist" comment="Feedback Güncelleme Yapıldı.">
-      <change afterPath="$PROJECT_DIR$/resources/views/front/sss.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/HomePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/HomePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Mail/SiparisHazirlaniyor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/SiparisHazirlaniyor.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Mail/Siparisİptal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/Siparisİptal.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Mail/siparis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Mail/siparis.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="bd03e3ba-6c49-4628-8331-983b60f5f5e5" name="Default Changelist" comment="Feedback Güncelleme Yapıldı." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -341,7 +332,7 @@
       <workItem from="1611401671114" duration="7176000" />
       <workItem from="1611603661669" duration="10151000" />
       <workItem from="1611669320934" duration="2032000" />
-      <workItem from="1611675215998" duration="7167000" />
+      <workItem from="1611675215998" duration="7694000" />
     </task>
     <task id="LOCAL-00001" summary="ilk versiyon aktarıldı">
       <created>1610129332812</created>
@@ -371,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611617545937</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feedback Güncelleme Yapıldı.">
+      <created>1611683955552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611683955552</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
