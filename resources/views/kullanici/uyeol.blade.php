@@ -19,7 +19,12 @@
                 <div class="alert alert-danger rounded shadow1">
                     <ul class="list-group">
                         @foreach($errors->all() as $error)
-                            <li >{{$error}}</li>
+                            @if($error=="The şifre must be at least 8 characters.")
+                                <li >Şifre en az 8 karakter olmalıdır.</li>
+                            @else
+                                <li >{{$error}}</li>
+                            @endif
+
                         @endforeach
                     </ul>
                 </div>
@@ -31,26 +36,26 @@
 
                 *Adınız-Soyadınız
                 <div class="bo4 of-hidden size15 m-b-20">
-                    <!--<x-jet-label for="name" value="{{ __('') }}" />-->
-                    <x-jet-input id="name" class="sizefull mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+
+                    <x-jet-input id="name" class="sizefull mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name"  />
                 </div>
 
                 *E-Mail Adresiniz
                 <div class="bo4 of-hidden size15 m-b-20">
-                   <!-- <x-jet-label for="email" value="{{ __('') }}" />-->
+
                     <x-jet-input id="email" class="sizefull mt-1 w-full" type="email" name="email" :value="old('email')" required />
                 </div>
 
                 *Şifre
                 <div class="bo4 of-hidden size15 m-b-20">
-                  <!--  <x-jet-label for="password" value="{{ __('') }}" /> -->
-                    <x-jet-input id="password" class="sizefull mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
+
+                    <x-jet-input id="password"  class="sizefull mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
                 </div>
 
                 *Şifreyi Onayla
                 <div class="bo4 of-hidden size15 m-b-20">
-                   <!-- <x-jet-label for="password_confirmation" value="{{ __('') }}" />-->
-                    <x-jet-input id="password_confirmation" class="sizefull mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
+
+                    <x-jet-input id="password_confirmation" class="sizefull mt-1 w-full" type="password" name="password_confirmation"  required autocomplete="new-password" />
                 </div>
 
                 <div class="flex text-right justify-end mt-4">
@@ -59,7 +64,7 @@
                                 {{ __('Zaten  Üye misiniz ?') }}
                     </a>
 
-                    <x-jet-button  style="background-color: #FF5722">
+                    <x-jet-button  style="background-color: #FF5722" >
                         {{ __('Üye Ol') }}
                     </x-jet-button>
                 </div>
@@ -72,3 +77,4 @@
 </div>
     </section>
 @endsection
+
